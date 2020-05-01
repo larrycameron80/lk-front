@@ -81,16 +81,20 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.2.0",
-    "simple-line-icons": "2.4.1"
+    "simple-line-icons": "2.4.1",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "dev": "webpack -d --progress --watch --profile --json > compilation-stats.json --env.dev",
     "start": "webpack-dev-server --progress --color --inline --env.dev --open 'Chromium'",
     "build": "webpack -p --progress --env.prod",
-    "clean": "rimraf ./build"
+    "clean": "rimraf ./build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">= 8.9.4",
     "npm": ">= 5.6.0"
-  }
+  },
+  "snyk": true
 }
