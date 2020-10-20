@@ -48,7 +48,7 @@
     "babel-runtime": "latest",
     "bootstrap": "4.0.0",
     "browser-locale": "^1.0.3",
-    "chart.js": "2.7.1",
+    "chart.js": "2.9.4",
     "dotenv-webpack": "^1.5.4",
     "draft-js": "^0.10.5",
     "flag-icon-css": "2.9.0",
