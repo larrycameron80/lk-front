@@ -67,7 +67,7 @@
     "react-notification-system": "^0.2.17",
     "react-rangeslider": "^2.2.0",
     "react-redux": "^5.0.7",
-    "react-router-dom": "4.2.2",
+    "react-router-dom": "6.0.0",
     "react-router-transition": "^1.2.1",
     "react-select": "^1.2.1",
     "react-slider": "^0.9.0",
